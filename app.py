@@ -1,4 +1,3 @@
-# week 2
 from flask import Flask
 from flask import render_template, request
 
@@ -13,4 +12,4 @@ def index():
     #     return render_template("index.html", result ="Waiting……….")
     
 if __name__ == "__main__":
-    app.run()
+    app.run(port=1111)
