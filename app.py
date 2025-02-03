@@ -40,7 +40,7 @@ def genAI_result():
 
 @app.route("/paynow", methods = ["GET", "POST"])
 def paynow():
-    return (render_template("panow.html"))
+    return (render_template("paynow.html"))
 
 if __name__ == "__main__":
     app.run()
